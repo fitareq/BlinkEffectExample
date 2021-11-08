@@ -18,3 +18,9 @@ Add the dependency
 	        implementation 'com.github.fitareq:BlinkEffectExample:$latest_version'
 	}
   ```
+  
+  ### Example
+  ```Textview textView = findViewById(R.id.textview);
+
+        BlinkEffect.blink(textView);
+	```

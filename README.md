@@ -20,7 +20,8 @@ Add the dependency
   ```
   
   ### Example
+  
   ```Textview textView = findViewById(R.id.textview);
 
         BlinkEffect.blink(textView);
-	```
+```

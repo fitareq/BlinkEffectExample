@@ -14,7 +14,7 @@ object BlinkEffect
             Color.RED, Color.GREEN, Color.BLACK
         )
 
-        animator.duration = 500
+        animator.duration = 1000
         animator.setEvaluator(ArgbEvaluator())
         animator.repeatCount = Animation.REVERSE
         animator.repeatCount = Animation.INFINITE
